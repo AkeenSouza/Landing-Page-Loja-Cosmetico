@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Libre+Bodoni&family=Ms+Madi&family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(89.15deg, #cbdfc3 16.62%, #f8f3e6 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 65px;
+}
+.cabecalho-menu-item{
+    cursor:pointer;
+    font-family: 'BIZ UDPMincho', serif;
+    font-weight: 400;
+    font-size: 22px; 
+}
+
+.cabecalho-menu-item:hover{
+    color: #8db280;
+}
+
+.logo{
+    height: 80px;
+}
+
+.conteudo{
+    padding: 20px;
+    margin-bottom: 48px;
+    margin-top: 35px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-img{
+    border-radius: 50%;
+    width: 550px;
+}
+
+.conteudo-principal-img:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Ms Madi', cursive;
+    font-weight: 400;
+    font-size: 79px;
+
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'BIZ UDPMincho', serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.conteudo-principal-botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-botoes-botao1{
+    height: 80px;
+    width: 200px;
+    border: none;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 20px;
+    background-color: #94b687;
+    cursor:pointer;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 4px 5px 4px rgba(31, 30, 30, 0.25);
+}
+
+.conteudo-principal-botoes-botao1:hover{
+    background-color: #87a67b;
+}
+
+.conteudo-principal-botoes-botao2{
+    height: 80px;
+    width: 200px;
+    border: none;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 20px;
+    background-color: transparent;
+    cursor:pointer;
+    color: #8ab07d;
+    border-radius: 40px;
+    
+}
